@@ -28,7 +28,7 @@ header {
   left: 0;
   top: 0;
   z-index: 10;
-  mix-blend-mode: difference;
+  text-shadow: #000;
 }
 @media screen and (min-width:1000px) {
   header {
@@ -89,6 +89,7 @@ header .center h1 img {
 .gnb-lg {
   display: flex;
   color: #fff;
+  z-index: 20;
 }
 @media screen and (max-width:1000px) {
   .gnb-lg {

@@ -12,7 +12,8 @@ header {
   left: 0;
   top: 0;
   z-index: 10;
-  mix-blend-mode: difference;
+  text-shadow: #000;
+  // mix-blend-mode: difference;
   @media #{m.$minLg} {
     height: 120px;
   }
@@ -70,6 +71,7 @@ header {
 .gnb-lg {
   display: flex;
   color: #fff;
+  z-index: 20;
   @media #{m.$maxLg} {
     display: none;
   }

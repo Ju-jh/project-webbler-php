@@ -12,8 +12,7 @@ header {
   left: 0;
   top: 0;
   z-index: 10;
-  text-shadow: #000;
-  // mix-blend-mode: difference;
+  mix-blend-mode: difference;
   @media #{m.$minLg} {
     height: 120px;
   }
@@ -71,7 +70,6 @@ header {
 .gnb-lg {
   display: flex;
   color: #fff;
-  z-index: 20;
   @media #{m.$maxLg} {
     display: none;
   }
@@ -123,6 +121,8 @@ header {
     &.bar1 {
       transform: translateY(-10px);
     }
+    &.bar2 {
+    }
     &.bar3 {
       transform: translateY(10px);
     }
@@ -159,8 +159,8 @@ header {
   mix-blend-mode: difference;
   z-index: 7;
   position: fixed;
-  bottom: 30px;
-  right: 30px;
+  bottom: 20px;
+  right: 20px;
   width: 30px;
   height: 30px;
   border: 1px solid #fff;

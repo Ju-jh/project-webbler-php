@@ -15,6 +15,8 @@
   <link rel="stylesheet" href="./css/home.css">
   <link rel="stylesheet" href="./css/works.css">
   <link rel="stylesheet" href="./css/detail.css">
+  <link rel="stylesheet" href="./css/contact.css">
+  <link rel="stylesheet" href="./css/price.css">
   <script src="https://kit.fontawesome.com/7d1f9ca95d.js" crossorigin="anonymous"></script>
   <script src="http://code.jquery.com/jquery-latest.js"></script>
   <script src="./js/masonry-docs.min.js"></script>
